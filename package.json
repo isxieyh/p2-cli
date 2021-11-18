@@ -1,0 +1,25 @@
+{
+  "name": "p2-cli",
+  "version": "1.0.0",
+  "description": "脚手架项目试水",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "p2": "./bin/p2.js"
+  },
+  "devDependencies": {
+    "commander": "^8.3.0",
+    "glob": "^7.2.0",
+    "inquirer": "^8.2.0"
+  },
+  "dependencies": {
+    "download-git-repo": "^3.0.2"
+  }
+}
